@@ -1,0 +1,90 @@
+/* BREAKPOINT */
+// XL: >1088px
+// L : 1088px
+// M : 930
+// S : 690
+// XS : 630
+
+#app {
+    overflow: hidden;
+}
+
+// XL
+@media (min-width: 1089px){
+    .hidden-on-XL {
+        display: none;
+    }
+}
+
+// L : 1088px
+@media (min-width: 931px) and (max-width: 1088px)  {
+    .hidden-on-L {
+        display: none;
+    }
+}
+
+@media (max-width: 1088px)  {
+    .hidden-on-lte-L {
+        display: none;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+}
+
+// M : 930
+
+@media (min-width: 769px) and (max-width: 930px)  {
+    .hidden-on-M {
+        display: none;
+    }
+
+}
+
+@media (max-width: 930px)  {
+    .hidden-on-lte-M {
+        display: none;
+    }
+    #lifeat {
+        height: unset;
+        flex-direction: column-reverse;
+        row-gap: 5px;
+    }
+}
+
+
+// S : 768
+
+@media (min-width: 701px) and (max-width: 768px)  {
+    .hidden-on-S {
+        display: none;
+    }
+}
+
+@media (max-width: 768px)  {
+    .hidden-on-lte-S {
+        display: none;
+    }
+}
+
+// XXS : 480
+
+@media (max-width: 480px)  {
+    .hidden-on-XXS {
+        display: none;
+    }
+    
+}
+
+// XXXS
+
+@media (max-width: 335px)  {
+    .hidden-on-XXXS {
+        display: none;
+    }
+}
