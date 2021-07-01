@@ -40,6 +40,11 @@ function musicPlayer() {
                 path: "./assets/mp3/4/TO THE MOON  hooligan.mp3",
                 img: "https://media1.tenor.com/images/62cb3c779c0dd4a7acd7f9192ce34cec/tenor.gif?itemid=5639599"
             },{
+                name: "Phố đã lên đèn",
+                artist: "Huyền Tâm Môn ft Lofi 1 9 6 7",
+                path: "https://drive.google.com/uc?id=1b-XQTob5U2tOn_ae_3uMJ7nYlylhJTUK",
+                img: "https://data.whicdn.com/images/340436503/original.jpg"
+            },{
                 name: "Dancing With Your Ghost",
                 artist: "Sasha Sloan",
                 path: "./assets/mp3/2/Sasha Sloan  Dancing With Your Ghost .mp3",
